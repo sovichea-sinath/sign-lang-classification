@@ -87,7 +87,7 @@ camera = cv2.VideoCapture(0)
 
 # keep looping 
 while True:
-  # Grab the current paintWindow
+  # Grab the current from webcam
   (grabbed, frame) = camera.read()
   # flip the image
   frame = cv2.flip(frame, 1)
